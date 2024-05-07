@@ -798,7 +798,7 @@ void tank()
 		tank_kvs.light = keys.kvs.switch_L1;
 		tank_kvs.power = keys.kvs.switch_R2;
 		tank_kvs.trigger = keys.kvs.R_up;
-
+//hello
 		// const char text[] = "Hello World"; // 一次最多可以传输32个字节。
 		nrf.radio.write(&tank_kvs, sizeof(tank_kvs));
 		delay(20);
