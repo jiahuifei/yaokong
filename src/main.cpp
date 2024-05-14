@@ -263,7 +263,7 @@ void NRFControl()
 {
 	bool pushFlag = true;													  // 需要刷新屏幕的标志
 	int nrfIndex = 0;														  // 菜单索引
-	String nrfName[6] = {"皮卡", "货车", "坦克", "无人机", "挖掘机", "舰船"}; // 菜单名字
+	String nrfName[7] = {"皮卡", "货车", "坦克", "无人机", "挖掘机", "舰船"}; // 菜单名字
 
 	screen.spr.setTextColor(TFT_WHITE); // 设置字体颜色
 	screen.spr.setTextDatum(TC_DATUM);	// 设置字体对齐方式 TC_DATUM:居中对齐(基准坐标为上方的中点)
